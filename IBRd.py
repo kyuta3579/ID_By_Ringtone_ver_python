@@ -2,12 +2,14 @@
 import os
 import sys
 import discord
+import settings
+
 from time import sleep
 
-TOKEN = "NTE5ODM2MTQzNTEyOTc3NDM5.DulIIA.-gwDVbkz1UIsRK6NwmW_i2rMS4o"
-NOSTALGIA_TEXT_CHANNEL = "293293134560100353"
-NOSTALGIA_VOICE_CHANNEL = "280222178929278976"
-TNS_VOICE_CHANNEL = "579685636647157760"
+TOKEN = settings.DIS_TOKEN
+NOSTALGIA_TEXT_CHANNEL = settings.NOS_TEXT
+NOSTALGIA_VOICE_CHANNEL = settings.NOS_VOICE
+TNS_VOICE_CHANNEL = settings.TNS_VOICE
 
 client = discord.Client()
 connect_flag = True

@@ -9,4 +9,5 @@ discord.py version.0.16.12
 
 
 
-akitaki_tst
+akitaki_tst  
+QtA
